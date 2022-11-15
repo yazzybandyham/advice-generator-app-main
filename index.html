@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/styles.css">
+  
+  <title>Advice generator app</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: dimgrey; }
+    .attribution a { color: hsl(228, 20%, 54%); }
+  </style>
+</head>
+<body>
+
+  <section class="card">
+
+      <h1 class="car-heading">Advice # <span id="advice-id"></span></h1>
+
+      <p class="card-text">"<span id="advice-text"></span>"</p>
+
+    
+      <picture>
+        <source media="(min-width: 500px)" srcset="./images/pattern-divider-mobile.svg">
+        <img src="/images/pattern-divider-desktop.svg" alt="pattern divider">
+      </picture>
+
+  
+      <button class="dice-card" id="generate-btn">
+        <img class="dice" src="/images/icon-dice.svg" alt="">
+      </button>
+    
+
+  </section>
+
+
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">YazzyBandyHam</a>.
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

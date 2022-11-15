@@ -1,0 +1,124 @@
+/*
+=========
+Font
+=========
+*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+/*
+=========
+Variables
+=========
+*/
+
+:root {
+/* Primary */
+
+--primary-cyan: hsl(193, 38%, 86%);
+--primary-Neon-Green: hsl(150, 100%, 66%);
+
+/* Neutral */
+
+--neutral-grayish-blue: hsl(217, 19%, 38%);
+--neutral-dark-grayish-blue: hsl(217, 19%, 24%);
+--neutral-dark-blue: hsl(218, 23%, 16%);
+}
+
+/*
+=========
+Base Styles
+=========
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+  Allow percentage-based heights in the application
+*/
+html, body {
+    height: 100%;
+  }
+  
+img, svg {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    background-color: var(--neutral-dark-blue);
+    font-family: 'Manrope', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--neutral-dark-grayish-blue);
+    margin-bottom: 100px;
+    padding: 41px 24px;
+    width: 343px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    position: relative;
+}
+
+h1 {
+    color: var(--primary-Neon-Green);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+p {
+    color: var(--primary-cyan);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: -0.26px;
+}
+
+picture img {
+   margin-bottom: 1rem;
+}
+
+button {
+    background-color: var(--primary-Neon-Green);
+    padding: 0.75rem;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    bottom: -30px;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: drop-shadow(0 0 0.3rem hsl(150, 100%, 66%));
+    transition: all 0.3s ease-out;
+}
+
+button:active {
+    filter: drop-shadow(0 0 0.7rem hsl(150, 100%, 66%));
+}
+
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 540px;
+    }
+    h1 {
+        font-size: 13px;
+    }
+    p {
+        font-size: 28px;
+    }
+}
+
