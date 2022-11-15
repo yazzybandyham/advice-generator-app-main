@@ -31,8 +31,8 @@ Users are able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-KFS5vlj0w5)
+- Live Site URL: [Fortune Cookee](https://fortunecookee.netlify.app/)
 
 ## My process
 
@@ -52,9 +52,9 @@ Users are able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Personal Website](https://yhdev.netlify.app/)
+- Frontend Mentor - [@yazzybandyham](https://www.frontendmentor.io/profile/yazzybandyham)
+- Twitter - [@yazzybandyham](ehttps://www.twitter.com/yazzybandyham)
 
 
 
