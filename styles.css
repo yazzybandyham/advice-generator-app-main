@@ -92,7 +92,7 @@ picture img {
 
 button {
     background-color: var(--primary-Neon-Green);
-    padding: 0.75rem;
+    padding: 1rem;
     border-radius: 50%;
     border: none;
     position: absolute;
