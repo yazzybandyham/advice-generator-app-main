@@ -27,7 +27,7 @@ Users are able to:
 
 ### Screenshot
 
-![](./images/Screenshot%202022-11-15%20at%2019.48.24.png)
+![](./images/Screenshot%202022-11-15%20at%2020.23.34.png)
 
 ### Links
 
